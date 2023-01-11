@@ -19,7 +19,7 @@ const AllJobs = () => {
                 Full Stack Developer
               </h2>
               <p>
-                <i>Company Name</i>
+                <i>Programming Hero</i>
               </p>
               <p>Company Location</p>
               <p>Posting time</p>
