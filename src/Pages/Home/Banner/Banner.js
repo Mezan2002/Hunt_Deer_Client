@@ -1,10 +1,15 @@
 import React from "react";
-import { FaLocationArrow, FaSearch } from "react-icons/fa";
+import {
+  FaFileExport,
+  FaFileUpload,
+  FaLocationArrow,
+  FaSearch,
+} from "react-icons/fa";
 
 const Banner = () => {
   return (
     <div className="bg-gradient-to-l from-[#E8EEFA] to-[#F2F5FC]">
-      <div className="flex items-center justify-between min-h-[90vh] px-40">
+      <div className="flex items-center relative justify-between min-h-[90vh] md:px-40">
         <div className="w-1/2">
           <div>
             <h2 className="uppercase text-4xl font-semibold">
@@ -71,7 +76,6 @@ const Banner = () => {
           </div>
         </div>
         <div className="w-1/2">
-          {/* <div className="rounded-full w-[550px] h-[550px] border-dashed border-2 border-indigo-200 absolute top-9 right-[79px] z-0"></div> */}
           <div className="flex justify-center">
             <img
               src="https://i.ibb.co/3SNzbqs/slider112-removebg-preview-1.png"
@@ -79,92 +83,16 @@ const Banner = () => {
               className="mt-[-90px] w-full"
             />
           </div>
-          {/* <div>
-            <div className="">
-              <div
-                className="bg-white w-24 h-24 rounded-full flex items-center justify-center absolute 
-               top-[-40px] right-0 animation"
-              >
-                <img
-                  src="https://i.ibb.co/BzR6sYh/sketch.png"
-                  className="w-16"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="">
-              <div
-                className="bg-white w-20 h-20 rounded-full flex items-center justify-center absolute 
-               top-[-20px] left-80 animation"
-              >
-                <img
-                  src="https://i.ibb.co/44whybs/html-5.png"
-                  className="w-12"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="">
-              <div
-                className="bg-white w-20 h-20 rounded-full flex items-center justify-center absolute 
-               right-[-40px] bottom-0 animation"
-              >
-                <img
-                  src="https://i.ibb.co/1JsKH6X/js.png"
-                  className="w-12"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="">
-              <div
-                className="bg-white w-20 h-20 rounded-full flex items-center justify-center absolute 
-               bottom-32 left-56 animation"
-              >
-                <img
-                  src="https://i.ibb.co/JsKWcfM/css-3.png"
-                  className="w-12"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="">
-              <div
-                className="bg-white w-20 h-20 rounded-full flex items-center justify-center absolute 
-        bottom-[-97px] left-[470px] animation"
-              >
-                <img
-                  src="https://i.ibb.co/JpvfzBr/photoshop.png"
-                  className="w-14"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="">
-              <div
-                className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
-        top-[-30px] left-[500px] animation"
-              >
-                <img
-                  src="https://i.ibb.co/VHfW5vN/illustrator.png"
-                  className="w-10"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="">
-              <div
-                className="bg-white w-16 h-16 rounded-full flex items-center justify-center absolute 
-        top-48 right-[-30px] animation"
-              >
-                <img
-                  src="https://i.ibb.co/ZH0YWYT/figma.png"
-                  className="w-10"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div> */}
+        </div>
+        <div className="text-center absolute bottom-8 right-[43%]">
+          <button className="btn btn-outline">
+            {" "}
+            <span>
+              {" "}
+              <FaFileUpload className="mr-4 text-2xl"></FaFileUpload>{" "}
+            </span>{" "}
+            Upload Your Resume
+          </button>
         </div>
       </div>
     </div>

@@ -41,7 +41,7 @@ const Navbar = () => {
               <h2 className="text-2xl font-semibold ml-2">HuntDeer</h2>
             </div>
           </div>
-          <div className="navbar-center">
+          <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0">{navItems}</ul>
           </div>
           <div className="navbar-end">
