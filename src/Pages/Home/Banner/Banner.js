@@ -10,9 +10,9 @@ const Banner = () => {
             <h2 className="uppercase text-4xl font-semibold">
               We Have a lots of jobs for you, Find Your Perfect Job Match
             </h2>
-            <p className="my-10 text-lg">
+            <h5 className="my-10 text-lg">
               Find Jobs, Employment & Career Opportunities
-            </p>
+            </h5>
           </div>
           <div className="bg-white w-full py-2 rounded-md">
             <div className="flex justify-between items-center">
@@ -34,10 +34,15 @@ const Banner = () => {
               </div>
               <input
                 type="submit"
-                className="btn btn-primary mr-3"
+                className="btn btn-primary text-white mr-3"
                 value="Find Job"
               />
             </div>
+          </div>
+          <div className="my-10">
+            <h2>
+              Popular Searches : Designer Developer Web IOS PHP Senior Engineer
+            </h2>
           </div>
         </div>
         <div></div>

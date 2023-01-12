@@ -80,10 +80,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-end hidden lg:flex">
-            <button className="btn btn-primary btn-outline">
-              Login/Register
+            <button className="btn btn-outline">Login/Register</button>
+            <button className="btn btn-primary text-white ml-4">
+              Job Post
             </button>
-            <button className="btn btn-primary ml-4">Job Post</button>
           </div>
         </div>
       </div>
