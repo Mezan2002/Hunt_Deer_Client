@@ -6,10 +6,10 @@ import Navbar from "../../Pages/Shared/Navbar/Navbar";
 const Main = () => {
   return (
     <div>
-      <div className="md:px-10">
+      <div className="">
         <Navbar></Navbar>
-        <Outlet></Outlet>
       </div>
+      <Outlet></Outlet>
       <div>
         <Footer></Footer>
       </div>

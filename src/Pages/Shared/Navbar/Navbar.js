@@ -26,9 +26,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <section className="border-b">
+    <section className="bg-gradient-to-l from-[#E8EEFA] to-[#F2F5FC]">
       <div>
-        <div className="navbar">
+        <div className="navbar md:px-10">
           <div className="navbar-start">
             <div className="flex items-center">
               <Link to="/">
@@ -41,8 +41,11 @@ const Navbar = () => {
               <h2 className="text-2xl font-semibold ml-2">HuntDeer</h2>
             </div>
           </div>
+          <div className="navbar-center">
+            <ul className="menu menu-horizontal p-0">{navItems}</ul>
+          </div>
           <div className="navbar-end">
-            <div className="flex items-center mr-2">
+            <div className="flex items-center mr-2 md:hidden">
               <span>
                 {" "}
                 <FaUser className="text-2xl mr-4"></FaUser>{" "}
@@ -77,7 +80,10 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-end hidden lg:flex">
-            <ul className="menu menu-horizontal p-0">{navItems}</ul>
+            <button className="btn btn-primary btn-outline">
+              Login/Register
+            </button>
+            <button className="btn btn-primary ml-4">Job Post</button>
           </div>
         </div>
       </div>
