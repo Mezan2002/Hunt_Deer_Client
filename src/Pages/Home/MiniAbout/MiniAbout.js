@@ -57,6 +57,20 @@ const MiniAbout = () => {
           </div>
         </div>
       </div>
+      <div className="flex flex-col lg:flex-row justify-between md:px-96 text-[#77838F] gap-12 py-10">
+        <aside className="flex flex-col items-center">
+          <p className="font-semibold mb-2 text-5xl font-Jost">4M</p>
+          <p className="text-sm font-Jost">4 million daily active users</p>
+        </aside>
+        <aside className="flex flex-col items-center">
+          <p className="font-semibold mb-2 text-5xl font-Jost">12K</p>
+          <p className="text-sm font-Jost">Over 12k open job positions</p>
+        </aside>
+        <aside className="flex flex-col items-center">
+          <p className="font-semibold mb-2 text-5xl font-Jost">20M</p>
+          <p className="text-sm font-Jost">Over 20 million stories shared</p>
+        </aside>
+      </div>
     </div>
   );
 };
