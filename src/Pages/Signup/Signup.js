@@ -6,7 +6,7 @@ const Signup = () => {
   return (
     <div>
       <div className="flex">
-        <div className="w-6/12 min-h-screen flex justify-center items-center bg-primary overflow-hidden relative">
+        <div className="w-6/12 min-h-screen flex justify-center items-center bg-indigo-600 overflow-hidden relative">
           <div className="bg-blue-400 w-40 h-40 rounded-full absolute top-24 left-40 animation3"></div>
           <div className="bg-red-400 w-40 h-40 rounded-full absolute bottom-24 right-40 animation2"></div>
           <div className="bg-[#2052BC] w-40 h-40 rounded-full absolute top-[-38px] right-[-20px]"></div>
@@ -110,7 +110,7 @@ const Signup = () => {
               </div>
             </div>
             <div>
-              <button className="btn btn-block btn-primary mt-5">
+              <button className="btn btn-block btn-primary text-white mt-5">
                 Sign Up
               </button>
               <button className="btn btn-block btn-outline mt-5">
@@ -125,7 +125,7 @@ const Signup = () => {
             <div className="text-center mt-10">
               <p className="">
                 Already have an account?{" "}
-                <Link className="hover:underline text-primary" to="/">
+                <Link className="hover:underline text-primary" to="/login">
                   Log In
                 </Link>
               </p>

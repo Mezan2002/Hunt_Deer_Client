@@ -47,7 +47,7 @@ const Footer = () => {
           </a>
         </div>
       </footer>
-      <footer className="footer px-10 py-4 border-t bg-secondary text-base-content border-base-300">
+      <footer className="footer px-10 py-4 border-t bg-gradient-to-l from-[#E8EEFA] to-[#F2F5FC] border-base-300">
         <div className="items-center grid-flow-col">
           <svg
             width="24"

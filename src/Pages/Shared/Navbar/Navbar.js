@@ -80,7 +80,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-end hidden lg:flex">
-            <button className="btn btn-outline">Login/Register</button>
+            <Link to="/login">
+              <button className="btn btn-outline">Login/Register</button>
+            </Link>
             <button className="btn btn-primary text-white ml-4">
               Job Post
             </button>

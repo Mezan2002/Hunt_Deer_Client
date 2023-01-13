@@ -7,7 +7,7 @@ const Login = () => {
     <div>
       <div className="flex">
         <div
-          className="w-6/12 min-h-screen flex justify-center items-center bg-primary relative 
+          className="w-6/12 min-h-screen flex justify-center items-center bg-indigo-600 relative 
         overflow-hidden"
         >
           <div className="bg-blue-400 w-40 h-40 rounded-full absolute top-24 left-40 animation3"></div>
@@ -103,7 +103,9 @@ const Login = () => {
               </Link>
             </div>
             <div>
-              <button className="btn btn-block btn-primary">Login</button>
+              <button className="btn btn-block btn-primary text-white">
+                Login
+              </button>
               <button className="btn btn-block btn-outline mt-5">
                 <img
                   src="https://i.ibb.co/D78mNTT/google.png"
