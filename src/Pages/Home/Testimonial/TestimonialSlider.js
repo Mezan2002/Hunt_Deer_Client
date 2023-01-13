@@ -51,7 +51,7 @@ export default function TestimonialSlider() {
                     alt=""
                   />
                   <div className="ml-3">
-                    <h2>Brooklyn Simmons</h2>
+                    <h2 className="text-xl font-medium">Brooklyn Simmons</h2>
                     <p>Designer</p>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ export default function TestimonialSlider() {
                     alt=""
                   />
                   <div className="ml-3">
-                    <h2>Brooklyn Simmons</h2>
+                    <h2 className="text-xl font-medium">Brooklyn Simmons</h2>
                     <p>Designer</p>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function TestimonialSlider() {
                     alt=""
                   />
                   <div className="ml-3">
-                    <h2>Brooklyn Simmons</h2>
+                    <h2 className="text-xl font-medium">Brooklyn Simmons</h2>
                     <p>Designer</p>
                   </div>
                 </div>
