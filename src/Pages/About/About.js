@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "./AboutSwiper/Swiper";
 
 const About = () => {
   return (
@@ -138,7 +139,9 @@ const About = () => {
               </div>
             </div>
           </aside>
-          <aside className="flex justify-center items-center"></aside>
+          <aside className="flex justify-center items-center">
+            <Slider />
+          </aside>
           <aside className="grid grid-cols-3 py-14 h-full">
             <div className="avatar flex items-center justify-center">
               <div className="w-24 rounded-full ring-1 bg-white ring-offset-8 ring-gray-600">
@@ -171,7 +174,9 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 items-center lg:grid-cols-3 lg:h-[500px] lg:hidden">
-        <aside className="flex justify-center items-center"></aside>
+        <aside className="flex justify-center items-center">
+          <Slider></Slider>
+        </aside>
       </div>
 
       <div className="py-10 bg-[#F5F7FC]">
