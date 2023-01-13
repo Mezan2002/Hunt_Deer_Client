@@ -1,9 +1,10 @@
 import React from "react";
 import TestimonialSlider from "./TestimonialSlider";
+import "./Testimonial.css";
 
 const Testimonial = () => {
   return (
-    <div className="bg-gradient-to-l from-[#E8EEFA] to-[#F2F5FC] py-20">
+    <div className="py-20 testimonial">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-medium">
           Testimonials From Our Customers
