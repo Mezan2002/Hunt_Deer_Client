@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FaFileExport,
-  FaFileUpload,
-  FaLocationArrow,
-  FaSearch,
-} from "react-icons/fa";
+import { FaFileUpload, FaLocationArrow, FaSearch } from "react-icons/fa";
 
 const Banner = () => {
   return (
