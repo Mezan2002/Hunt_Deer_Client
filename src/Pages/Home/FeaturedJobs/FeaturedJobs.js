@@ -1,12 +1,14 @@
 import React from "react";
 
-const JobCategories = () => {
+const FeaturedJobs = () => {
   return (
     <div>
-      <div className="my-20">
-        <div className="text-center">
-          <h2 className="text-3xl font-medium">Popular Job Categories</h2>
-          <p className="mt-4 text-gray-400">2023 jobs live - 50 added today.</p>
+      <div className="my-20 border-t">
+        <div className="text-center pt-20">
+          <h2 className="text-3xl font-medium">Featured Jobs</h2>
+          <p className="mt-4 text-gray-400">
+            Know your worth and find the job that qualify your life
+          </p>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 md:px-40 mt-20">
           <div className="flex items-center py-4 w-10/12 mx-auto border border-gray-200 rounded-xl">
@@ -110,9 +112,12 @@ const JobCategories = () => {
             </div>
           </div>
         </div>
+        <div className="text-center mt-10">
+          <button className="btn btn-primary text-white">Show All Jobs</button>
+        </div>
       </div>
     </div>
   );
 };
 
-export default JobCategories;
+export default FeaturedJobs;

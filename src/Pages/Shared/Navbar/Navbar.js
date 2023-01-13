@@ -5,22 +5,22 @@ import { FaBell, FaUser } from "react-icons/fa";
 const Navbar = () => {
   const navItems = (
     <>
-      <li>
+      <li className="mr-2 rounded-lg">
         <a href="/">Home</a>
       </li>
-      <li>
+      <li className="mr-2 rounded-lg">
         <a href="/">Find Jobs</a>
       </li>
-      <li>
+      <li className="mr-2 rounded-lg">
         <a href="/">Employers</a>
       </li>
-      <li>
+      <li className="mr-2 rounded-lg">
         <a href="/">FAQ</a>
       </li>
-      <li>
-        <a href="/">About</a>
+      <li className="mr-2 rounded-lg">
+        <a href="/about">About</a>
       </li>
-      <li>
+      <li className="mr-2 rounded-lg">
         <a href="/">Contact</a>
       </li>
     </>
