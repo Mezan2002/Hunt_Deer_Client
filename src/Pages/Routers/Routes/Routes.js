@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../../Layout/Main/Main";
 import About from "../../About/About";
+import Details from "../../Details/Details";
 import Home from "../../Home/Home/Home";
 import Login from "../../Login/Login";
 import Signup from "../../Signup/Signup";
@@ -17,6 +18,10 @@ const Routes = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/details",
+        element: <Details/>,
       },
     ],
   },
